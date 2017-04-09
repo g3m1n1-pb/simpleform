@@ -12,7 +12,6 @@ $email = $_POST["email"];
 mail( 'info@californiaticketking.com' , 'New form submission' , 
 "New form submission: Name: $name, Email:$email"  );
 header('Location: thank-you');
-?>
 
     
 ?>    
